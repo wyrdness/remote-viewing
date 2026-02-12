@@ -1,0 +1,480 @@
+{
+  "category": "PSYCHIC_PHENOMENA",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/remote-viewing",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "remote-viewing",
+    "name": "Remote Viewing",
+    "aliases": [
+      {
+        "name": "RV",
+        "meaning": "Abbreviation for Remote Viewing"
+      },
+      {
+        "name": "Anomalous Cognition",
+        "meaning": "Scientific terminology used by researchers"
+      },
+      {
+        "name": "Extended Remote Viewing",
+        "meaning": "ERV - Technique using altered states"
+      },
+      {
+        "name": "Coordinate Remote Viewing",
+        "meaning": "CRV - Military-developed protocol"
+      },
+      {
+        "name": "Controlled Remote Viewing",
+        "meaning": "Systematic methodology developed by Ingo Swann"
+      }
+    ],
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Extrasensory perception",
+    "tags": [
+      "parapsychology",
+      "esp",
+      "psychic",
+      "military-research",
+      "cia",
+      "stargate-project",
+      "psi",
+      "consciousness",
+      "clairvoyance"
+    ],
+    "status": "unverified",
+    "description": {
+      "summary": "Remote viewing is the claimed psychic ability to perceive or describe details about distant or unseen targets using extrasensory perception. Most famously investigated by the U.S. government in the Stargate Project (1970s-1995), which concluded the phenomenon had no practical intelligence value.",
+      "full": "Remote viewing is a claimed paranormal ability to perceive information about distant or unseen locations, objects, or events through extrasensory perception (ESP). The practice gained significant attention during the Cold War when the U.S. government funded research programs, most notably the Stargate Project, from the 1970s through 1995. These programs investigated whether remote viewing could be used for intelligence gathering. Despite decades of research and millions of dollars in funding, government reviews concluded that remote viewing showed no evidence of being a reliable or useful intelligence tool. Scientific consensus finds no credible evidence for remote viewing beyond what would be expected by chance, and controlled studies have failed to demonstrate the phenomenon under rigorous conditions. Methodological flaws, including inadequate controls, selective reporting, and the 'file drawer effect,' have been identified in studies claiming positive results."
+    },
+    "etymology": {
+      "origin": "The term 'remote viewing' was coined by physicists Russell Targ and Harold Puthoff at Stanford Research Institute in the 1970s to describe their ESP experiments.",
+      "meaning": "The ability to 'view' or perceive information about a remote target without being physically present",
+      "first_use": "1972"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "PSYCHIC_PHENOMENA",
+      "type": "Extrasensory Perception",
+      "subtype": "Clairvoyance",
+      "variant": "Controlled protocol"
+    },
+    "related_phenomena": [
+      {
+        "id": "psychic-phenomena",
+        "name": "Psychic Phenomena",
+        "relationship": "parent_category",
+        "description": "Broader category of claimed paranormal mental abilities"
+      },
+      {
+        "id": "telepathy",
+        "name": "Telepathy",
+        "relationship": "similar",
+        "description": "Mind-to-mind communication"
+      },
+      {
+        "id": "clairvoyance",
+        "name": "Clairvoyance",
+        "relationship": "similar",
+        "description": "Perceiving distant events or objects"
+      },
+      {
+        "id": "precognition",
+        "name": "Precognition",
+        "relationship": "related",
+        "description": "Some remote viewing protocols claim temporal perception"
+      },
+      {
+        "id": "psychometry",
+        "name": "Psychometry",
+        "relationship": "related",
+        "description": "Obtaining information through touching objects"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "claimed_abilities": [
+      {
+        "ability": "Geographic remote viewing",
+        "description": "Perceiving details about distant geographic locations",
+        "frequency": "common",
+        "evidence_level": "unverified"
+      },
+      {
+        "ability": "Coordinate remote viewing",
+        "description": "Using coordinates as target reference",
+        "frequency": "common",
+        "evidence_level": "unverified"
+      },
+      {
+        "ability": "Associative remote viewing",
+        "description": "Describing location associated with future event",
+        "frequency": "occasional",
+        "evidence_level": "unverified"
+      },
+      {
+        "ability": "Temporal remote viewing",
+        "description": "Perceiving past or future events",
+        "frequency": "rare",
+        "evidence_level": "unverified"
+      }
+    ],
+    "protocols": {
+      "coordinate_remote_viewing": {
+        "name": "Coordinate Remote Viewing (CRV)",
+        "developer": "Ingo Swann",
+        "description": "Structured six-stage protocol developed for military use",
+        "components": [
+          "Stage 1: Ideograms - Initial impressions",
+          "Stage 2: Sensory data - Colors, textures, temperatures",
+          "Stage 3: Dimensional data - Sketches and measurements",
+          "Stage 4: Emotional and aesthetic impact",
+          "Stage 5: Detailed analysis",
+          "Stage 6: Three-dimensional modeling"
+        ]
+      },
+      "extended_remote_viewing": {
+        "name": "Extended Remote Viewing (ERV)",
+        "description": "Uses altered states of consciousness similar to meditation",
+        "components": [
+          "Deep relaxation techniques",
+          "Theta brainwave state induction",
+          "Free-form perception reporting"
+        ]
+      },
+      "written_remote_viewing": {
+        "name": "Written Remote Viewing (WRV)",
+        "description": "Simplified protocol for beginners",
+        "components": [
+          "Target coordinates provided",
+          "Free-form written description",
+          "Sketches encouraged"
+        ]
+      }
+    },
+    "methodology": {
+      "double_blind_protocol": "Viewer should not know target identity",
+      "monitor_role": "Records viewer impressions without feedback",
+      "feedback_stage": "Target revealed after session completion",
+      "judging": "Independent judges match descriptions to targets"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Remote viewing as a controlled protocol emerged from parapsychology research in the 1970s, though claims of clairvoyance date back millennia across various cultures.",
+      "earliest_scientific_studies": "1970s experiments at Stanford Research Institute by Targ and Puthoff",
+      "military_interest": "Cold War concerns about Soviet psychic warfare programs led to U.S. government funding"
+    },
+    "timeline": [
+      {
+        "date": "1972",
+        "event": "SRI experiments begin",
+        "significance": "Russell Targ and Harold Puthoff begin remote viewing experiments at Stanford Research Institute",
+        "source": "Declassified CIA documents"
+      },
+      {
+        "date": "1973",
+        "event": "Ingo Swann experiments",
+        "significance": "Artist and psychic Ingo Swann participates in experiments, helps develop protocols",
+        "source": "SRI research papers"
+      },
+      {
+        "date": "1975",
+        "event": "CIA Project STAR GATE begins",
+        "significance": "CIA initiates funding for remote viewing research",
+        "source": "CIA FOIA releases"
+      },
+      {
+        "date": "1978",
+        "event": "Army Intelligence involvement",
+        "significance": "U.S. Army Intelligence creates operational remote viewing unit",
+        "source": "Army Intelligence reports"
+      },
+      {
+        "date": "1984",
+        "event": "DIA assumes control",
+        "significance": "Defense Intelligence Agency takes over program, renamed multiple times",
+        "source": "DIA documents"
+      },
+      {
+        "date": "1995",
+        "event": "Stargate Project declassified",
+        "significance": "CIA declassifies and terminates program, citing lack of actionable intelligence value",
+        "source": "AIR report commissioned by CIA"
+      },
+      {
+        "date": "1995",
+        "event": "AIR evaluation published",
+        "significance": "American Institutes for Research evaluation concludes no evidence for operational value",
+        "source": "Mumford et al., 1995"
+      },
+      {
+        "date": "1996-present",
+        "event": "Civilian remote viewing community",
+        "significance": "Former military remote viewers establish training programs and commercial ventures",
+        "source": "Public records"
+      }
+    ],
+    "stargate_project": {
+      "name": "Stargate Project",
+      "also_known_as": [
+        "SCANATE",
+        "GONDOLA WISH",
+        "GRILL FLAME",
+        "CENTER LANE",
+        "SUN STREAK",
+        "STAR GATE"
+      ],
+      "duration": "1970s - 1995",
+      "funding": "Approximately $20 million over program lifetime",
+      "purpose": "Investigate potential intelligence applications of remote viewing",
+      "conclusion": "No actionable intelligence value; program terminated",
+      "declassification": "1995",
+      "key_findings": [
+        "No reliable demonstration of remote viewing under controlled conditions",
+        "Results did not exceed chance expectations in rigorous tests",
+        "Claims of success were anecdotal and could not be independently verified",
+        "Methodological flaws identified in supporting research"
+      ]
+    },
+    "government_conclusions": {
+      "cia_assessment": "The CIA concluded that remote viewing was not a viable intelligence collection tool and terminated the program in 1995.",
+      "air_evaluation": "The American Institutes for Research evaluation found that 'the laboratory studies do not provide evidence regarding the existence of remote viewing' and that operational use produced no actionable intelligence.",
+      "scientific_consensus": "Mainstream science finds no credible evidence for remote viewing beyond chance and identifies significant methodological flaws in supporting studies."
+    }
+  },
+
+  "evidence": {
+    "claimed_successes": [
+      {
+        "claim": "Soviet target identification",
+        "description": "Claims of identifying Soviet military installations",
+        "status": "unverified",
+        "analysis": "No independent verification; could be explained by existing intelligence, chance, or selective reporting"
+      },
+      {
+        "claim": "Hostage location attempts",
+        "description": "Attempts to locate hostages in Middle East",
+        "status": "failed",
+        "analysis": "No successful operational results; hostages not located through remote viewing"
+      },
+      {
+        "claim": "Jupiter's rings prediction",
+        "description": "Ingo Swann allegedly predicted Jupiter's rings before Voyager flyby",
+        "status": "disputed",
+        "analysis": "Prediction was vague and made after rings were theoretically predicted by astronomers"
+      }
+    ],
+    "scientific_studies": [
+      {
+        "study": "Targ and Puthoff experiments (1970s)",
+        "status": "disputed",
+        "criticism": "Inadequate controls, sensory leakage, selective reporting",
+        "source": "Nature journal criticism, 1978"
+      },
+      {
+        "study": "AIR meta-analysis (1995)",
+        "conclusion": "No evidence for practical application",
+        "status": "accepted",
+        "source": "Mumford, Rose & Goslin (1995)"
+      },
+      {
+        "study": "Bem & Honorton autoganzfeld studies",
+        "status": "failed replication",
+        "criticism": "Effect disappeared under stricter protocols",
+        "source": "Multiple replication attempts"
+      }
+    ],
+    "problems_identified": [
+      "File drawer effect - negative results not published",
+      "Inadequate double-blind protocols",
+      "Sensory leakage and cueing",
+      "Subjective judging criteria",
+      "Selective reporting of hits",
+      "Confirmation bias",
+      "Cold reading techniques",
+      "Statistical artifacts"
+    ]
+  },
+
+  "scientific_assessment": {
+    "mainstream_scientific_consensus": "No credible evidence for remote viewing beyond chance",
+    "methodological_issues": [
+      "Lack of replication under controlled conditions",
+      "Inadequate blinding procedures",
+      "Subjective evaluation criteria",
+      "Publication bias favoring positive results",
+      "Failure to account for chance and cognitive biases"
+    ],
+    "theoretical_problems": [
+      "No known mechanism for information transfer",
+      "Violates established physical laws",
+      "No correlation with distance (violation of inverse square law)",
+      "Inconsistent with information theory",
+      "Lack of theoretical framework"
+    ],
+    "skeptical_explanations": [
+      "Cold reading and mentalist techniques",
+      "Sensory leakage and subtle cues",
+      "Confirmation bias and subjective validation",
+      "Probability and statistics misunderstanding",
+      "Selective memory and reporting",
+      "Vague descriptions retrofitted to targets"
+    ]
+  },
+
+  "notable_researchers": {
+    "proponents": [
+      {
+        "name": "Russell Targ",
+        "affiliation": "Stanford Research Institute",
+        "contribution": "Co-developer of remote viewing protocols; author of multiple books",
+        "period": "1972-present",
+        "note": "Claims remain controversial in scientific community"
+      },
+      {
+        "name": "Harold Puthoff",
+        "affiliation": "Stanford Research Institute",
+        "contribution": "Co-developer of remote viewing protocols; theoretical work",
+        "period": "1972-present",
+        "note": "Also involved in controversial 'zero-point energy' claims"
+      },
+      {
+        "name": "Ingo Swann",
+        "affiliation": "Artist/psychic",
+        "contribution": "Developed Coordinate Remote Viewing protocol",
+        "period": "1973-2013",
+        "note": "No independent verification of claimed abilities"
+      },
+      {
+        "name": "Joseph McMoneagle",
+        "affiliation": "Former Army remote viewer",
+        "contribution": "Participant in military program; author",
+        "period": "1978-present",
+        "note": "Claims remain unverified"
+      }
+    ],
+    "skeptics": [
+      {
+        "name": "Ray Hyman",
+        "affiliation": "University of Oregon",
+        "contribution": "Extensive critiques of parapsychology and remote viewing research",
+        "period": "1970s-present",
+        "note": "Member of AIR evaluation team"
+      },
+      {
+        "name": "James Randi",
+        "affiliation": "James Randi Educational Foundation",
+        "contribution": "Offered $1 million prize for proof of paranormal abilities; never claimed",
+        "period": "1964-2015",
+        "note": "No remote viewer successfully demonstrated ability under controlled conditions"
+      },
+      {
+        "name": "Susan Blackmore",
+        "affiliation": "University of Plymouth",
+        "contribution": "Failed to replicate remote viewing in controlled studies; critical analysis",
+        "period": "1980s-present"
+      }
+    ]
+  },
+
+  "cultural": {
+    "popular_culture": {
+      "literature": [
+        "\"The Men Who Stare at Goats\" by Jon Ronson (2004) - Investigative journalism",
+        "\"Psychic Warrior\" by David Morehouse (1996) - Memoir (disputed)",
+        "\"Remote Viewers: The Secret History of America's Psychic Spies\" by Jim Schnabel (1997)"
+      ],
+      "film_tv": [
+        "The Men Who Stare at Goats (2009) - Satirical film",
+        "Third Eye Spies (2019) - Documentary supporting remote viewing",
+        "Phenomena: The Secret History of U.S. Psychic Warfare (2007) - Documentary",
+        "Stargate SG-1 (TV series) - Named after the program"
+      ],
+      "commercial": [
+        "Remote viewing training programs",
+        "Books and courses by former military viewers",
+        "Private consulting services"
+      ]
+    },
+    "public_perception": {
+      "believers": "View Stargate Project as proof of government validation; believe program was shut down due to secrecy needs rather than lack of results",
+      "skeptics": "Point to official conclusions and lack of scientific evidence; view claims as pseudoscience",
+      "scientific_community": "Overwhelming rejection as lacking evidence and violating established physical principles"
+    }
+  },
+
+  "current_status": {
+    "scientific_research": "Minimal legitimate research; not accepted in mainstream psychology or physics",
+    "commercial_activity": "Active commercial training programs run by former military personnel",
+    "government_interest": "No known current U.S. government programs (post-1995)",
+    "public_interest": "Continues in fringe communities and New Age circles"
+  },
+
+  "sources": [
+    {
+      "id": "mumford-1995",
+      "type": "report",
+      "title": "An Evaluation of Remote Viewing: Research and Applications",
+      "authors": ["Michael D. Mumford", "Andrew M. Rose", "David A. Goslin"],
+      "publication": "American Institutes for Research",
+      "date": "1995-09-29",
+      "url": "https://www.cia.gov/readingroom/",
+      "note": "Official CIA-commissioned evaluation concluding no operational value"
+    },
+    {
+      "id": "utts-1996",
+      "type": "paper",
+      "title": "An Assessment of the Evidence for Psychic Functioning",
+      "authors": ["Jessica Utts"],
+      "publication": "Journal of Scientific Exploration",
+      "date": "1996",
+      "note": "Controversial pro-parapsychology assessment; disputed by Hyman"
+    },
+    {
+      "id": "hyman-1996",
+      "type": "paper",
+      "title": "Evaluation of the Military's Twenty-Year Program on Psychic Spying",
+      "authors": ["Ray Hyman"],
+      "publication": "Skeptical Inquirer",
+      "date": "1996",
+      "note": "Critical evaluation finding no evidence for remote viewing"
+    },
+    {
+      "id": "marks-2000",
+      "type": "book",
+      "title": "The Psychology of the Psychic",
+      "authors": ["David Marks"],
+      "publication": "Prometheus Books",
+      "date": "2000",
+      "isbn": "978-1573927987",
+      "note": "Critical analysis of remote viewing research"
+    },
+    {
+      "id": "cia-stargate",
+      "type": "archive",
+      "title": "Stargate Project Documents",
+      "url": "https://www.cia.gov/readingroom/collection/stargate",
+      "note": "Declassified CIA documents on remote viewing program"
+    }
+  ]
+}
