@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/remote-viewing",
     "maintainers": [
       {
@@ -19,68 +19,260 @@
   "phenomenon": {
     "id": "remote-viewing",
     "name": "Remote Viewing",
-    "aliases": [],
-    "category": "|_BROADER_CATEGORY_OF_CLAIMED_PARANORMAL_MENTAL_ABILITIES_|",
-    "subcategory": "Clairvoyance",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      {
+        "name": "RV",
+        "language": "English"
+      },
+      {
+        "name": "Coordinate Remote Viewing (CRV)",
+        "language": "English",
+        "meaning": "Ingo Swann's structured protocol used at SRI"
+      },
+      {
+        "name": "Extended Remote Viewing (ERV)",
+        "language": "English",
+        "meaning": "Variant developed within the U.S. Army programmes"
+      },
+      {
+        "name": "Stargate Project",
+        "language": "English",
+        "meaning": "Umbrella name for the U.S. government remote-viewing programmes from 1991"
+      },
+      {
+        "name": "Sun Streak / Center Lane / Grill Flame / Gondola Wish",
+        "language": "English",
+        "meaning": "Earlier classified codenames for the same lineage of programmes"
+      }
     ],
-    "status": "documented",
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Claimed clairvoyant perception at distance",
+    "tags": [
+      "parapsychology",
+      "stargate-project",
+      "sri-international",
+      "cia",
+      "dia",
+      "cold-war",
+      "pseudoscience",
+      "psi"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "The most famous of these programs, the **Stargate Project**, ran from the 1970s through 1995 and cost approximately $20 million.",
-      "full": "The most famous of these programs, the **Stargate Project**, ran from the 1970s through 1995 and cost approximately $20 million. The program was declassified in 1995, along with an independent evaluation by the American Institutes for Research (AIR) that concluded remote viewing showed no evidence of being a reliable or useful intelligence tool."
+      "summary": "A claimed psychic ability to perceive distant or unseen targets, studied in U.S. government-funded research programmes from 1972 to 1995 and concluded by independent review to lack reliable evidence.",
+      "full": "Remote viewing is the claimed practice of obtaining impressions of remote or hidden targets using only the mind. The term was introduced in 1971 by physicists Russell Targ and Harold Puthoff at the Stanford Research Institute (SRI) in Menlo Park, California, in collaboration with the artist and self-described psychic Ingo Swann. From 1972, SRI received funding from the Central Intelligence Agency (CIA) and later the Defense Intelligence Agency (DIA) to investigate possible intelligence applications. The classified programme passed under several codenames — Gondola Wish, Grill Flame, Center Lane, Sun Streak, and finally Stargate Project — and ran until its closure in 1995, when a CIA-commissioned evaluation by the American Institutes for Research (AIR), with statistician Jessica Utts and psychologist Ray Hyman, concluded that remote viewing had not produced actionable intelligence and that earlier positive results were attributable to methodological flaws. The mainstream scientific community treats remote viewing as pseudoscience."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined in December 1971 at the American Society for Psychical Research, New York, by Russell Targ, Harold Puthoff, and Ingo Swann to describe a structured experimental protocol distinct from older parapsychological terms such as 'travelling clairvoyance' or 'astral projection'.",
+      "meaning": "'Remote' (at a distance from the subject) and 'viewing' (perceiving) — perceiving a target at distance.",
+      "first_use": "1971; first appears in print in early SRI reports and in Targ and Puthoff's 1974 Nature paper 'Information transmission under conditions of sensory shielding'."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CATEGORY_OF_CLAIMED_PARANORMAL_MENTAL_ABILITIES_|",
-      "type": "Clairvoyance",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "PSYCHIC_PHENOMENA",
+      "type": "Claimed extrasensory perception",
+      "subtype": "Clairvoyance / anomalous cognition",
+      "variant": "Protocol-based RV (CRV/ERV)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      {
+        "id": "clairvoyance",
+        "name": "Clairvoyance",
+        "relationship": "superset",
+        "description": "Broader claimed ability to perceive hidden information; remote viewing is a specific structured form"
+      },
+      {
+        "id": "astral-projection",
+        "name": "Astral Projection",
+        "relationship": "related",
+        "description": "Earlier occult tradition of out-of-body perception of distant scenes"
+      },
+      {
+        "id": "telepathy",
+        "name": "Telepathy",
+        "relationship": "related",
+        "description": "Claimed mind-to-mind information transfer, sometimes invoked to explain RV results"
+      },
+      {
+        "id": "ganzfeld-experiments",
+        "name": "Ganzfeld Experiments",
+        "relationship": "related",
+        "description": "Parapsychological telepathy paradigm contemporaneous with RV research"
+      }
+    ]
   },
   "characteristics": {
     "physical": {
       "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "morphology": "Not applicable — remote viewing is a claimed cognitive performance with no physical entity."
     },
-    "abilities": [],
+    "abilities": [
+      {
+        "ability": "Perception of hidden targets",
+        "description": "Subject is asked to describe a target (location, object, image) known only by coordinates, an envelope, or a randomly selected pool entry",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Sketching and verbal description",
+        "description": "Output typically takes the form of sketches and verbal impressions, scored against the target by independent judges",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Coordinate Remote Viewing (CRV)",
+        "description": "Structured stage-based protocol developed by Ingo Swann under contract with SRI, using geographic coordinates as the prompt",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Outbounder/beacon protocols",
+        "description": "Variants in which an agent travels to a target site while the viewer attempts to describe it",
+        "frequency": "common",
+        "evidence_level": "reported"
+      }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "habitat_preference": [
+        "laboratory",
+        "shielded room",
+        "sound-attenuated chamber"
+      ],
+      "patterns": [
+        "Conducted under controlled conditions in an attempt to exclude sensory leakage",
+        "Targets selected from a pool by a third party blinded to the viewer",
+        "Output evaluated by independent judges using ranking or matching criteria"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Research has been conducted primarily in the United States, with related parapsychological work in the United Kingdom, the Netherlands, the former Soviet Union, and elsewhere. Government interest is documented for the United States and (in declassified records) for the Soviet Union.",
+      "continents": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "countries": [
+        "United States",
+        "Soviet Union / Russia",
+        "United Kingdom",
+        "Netherlands"
+      ],
+      "regions": [
+        "California (SRI International, Menlo Park)",
+        "Maryland (Fort Meade, U.S. Army INSCOM)",
+        "Princeton, New Jersey (PEAR lab)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "SRI International (Stanford Research Institute)",
+        "location": {
+          "description": "Menlo Park, California — primary contractor for CIA/DIA-funded RV research from 1972",
+          "country": "United States",
+          "region": "California",
+          "coordinates": {
+            "latitude": 37.4555,
+            "longitude": -122.1825
+          }
+        },
+        "peak_period": "1972–1990",
+        "notes": "Targ and Puthoff's laboratory; Ingo Swann developed CRV here"
+      },
+      {
+        "name": "Fort Meade, Maryland (Stargate operational unit)",
+        "location": {
+          "description": "Detachment G, U.S. Army INSCOM — operational remote-viewing unit",
+          "country": "United States",
+          "region": "Maryland"
+        },
+        "peak_period": "1978–1995",
+        "notes": "Operational home of Joseph McMoneagle (Remote Viewer #001) and other military viewers"
+      },
+      {
+        "name": "Science Applications International Corporation (SAIC)",
+        "location": {
+          "description": "RV research site after the SRI contract transferred",
+          "country": "United States",
+          "region": "California"
+        },
+        "peak_period": "1991–1995",
+        "notes": "Edwin May continued RV research at SAIC until programme closure"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1971-12-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Coining of the term 'remote viewing' at the American Society for Psychical Research, New York, December 1971"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1972–1995",
+          "description": "U.S. government-funded research and operational programmes (Gondola Wish through Stargate Project)"
+        },
+        {
+          "period": "1995–present",
+          "description": "Civilian and commercial RV training, books, and online communities following declassification"
+        }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "20th-century parapsychology, drawing on older traditions of clairvoyance and 'travelling clairvoyance' from 19th-century mesmerism and Theosophy.",
+      "earliest_accounts": "Targ and Puthoff's SRI experiments with Ingo Swann, Pat Price, Hella Hammid, and others, beginning in 1972 under CIA contract.",
+      "folklore_connections": "Linked culturally to Cold War fascination with psychic warfare and to the New Age movement of the 1970s–1980s."
     },
-    "timeline": []
+    "timeline": [
+      {
+        "date": "1971-12-01",
+        "event": "Russell Targ, Harold Puthoff, and Ingo Swann coin the term 'remote viewing' at the American Society for Psychical Research, New York",
+        "significance": "Birth of the modern term",
+        "source": "Targ, R. & Puthoff, H. E. (1977), Mind-Reach"
+      },
+      {
+        "date": "1972-01-01",
+        "event": "SRI begins CIA-funded research on remote viewing, soon expanding to Office of Naval Research and DIA contracts",
+        "significance": "Start of two decades of U.S. government RV funding",
+        "source": "CIA Stargate declassified files"
+      },
+      {
+        "date": "1974-10-18",
+        "event": "Targ and Puthoff publish 'Information transmission under conditions of sensory shielding' in Nature 252, 602–607",
+        "significance": "First peer-reviewed mainstream publication of SRI RV claims",
+        "source": "Targ & Puthoff (1974), Nature 252:602–607"
+      },
+      {
+        "date": "1978-01-01",
+        "event": "U.S. Army establishes a small operational RV unit at Fort Meade (Gondola Wish, later Grill Flame)",
+        "significance": "Operationalisation of the SRI research",
+        "source": "DIA declassified files"
+      },
+      {
+        "date": "1991-01-01",
+        "event": "Programme renamed 'Stargate Project' and transferred to the DIA; SAIC takes over the research contract",
+        "significance": "Final phase before closure",
+        "source": "CIA Stargate declassified files"
+      },
+      {
+        "date": "1995-09-01",
+        "event": "American Institutes for Research (AIR) report by Jessica Utts and Ray Hyman delivered to the CIA",
+        "significance": "Formal independent evaluation of the programme",
+        "source": "Mumford, M. D., Rose, A. M. & Goslin, D. A. (1995), AIR Report"
+      },
+      {
+        "date": "1995-11-28",
+        "event": "CIA officially terminates the Stargate Project and declassifies its existence",
+        "significance": "End of U.S. government RV programme",
+        "source": "CIA press materials, November 1995"
+      }
+    ],
+    "modern_era": "After 1995, declassified Stargate documents have been progressively released through the CIA's CREST archive and Freedom of Information Act requests, fuelling a civilian RV training industry led by former programme members (e.g. Lyn Buchanan, Joseph McMoneagle, Paul H. Smith). Academic parapsychology continues marginal RV work, while mainstream cognitive science and statistics regard the corpus as not constituting evidence of a real phenomenon."
   },
   "sightings": {
     "statistics": {
@@ -89,7 +281,85 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "remote-viewing-1973-semipalatinsk",
+        "name": "Pat Price 'Soviet site' / Semipalatinsk-style trial",
+        "date": {
+          "value": "1973-01-01",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Stanford Research Institute, Menlo Park, California (claimed remote target in the Soviet Union)",
+          "country": "United States",
+          "region": "California"
+        },
+        "witnesses": {
+          "count": 3,
+          "types": [
+            "SRI researcher (Russell Targ)",
+            "SRI researcher (Harold Puthoff)",
+            "Subject (Pat Price)"
+          ],
+          "credibility_factors": [
+            "CIA-monitored trials",
+            "Subsequent declassification"
+          ]
+        },
+        "description": "In a series of CIA-funded trials at SRI, former police officer Pat Price produced sketches and descriptions of an alleged Soviet site that proponents said matched features of the target. The case is heavily cited by RV proponents. Independent reviewers have noted that hits were selected post hoc and that target-pool issues complicate scoring.",
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Disputed scoring methodology",
+            "Selection bias in case writeups",
+            "Targ–Puthoff target-pool concerns later raised by skeptics"
+          ],
+          "notes": "A foundational anecdote of the SRI programme, but not regarded by mainstream evaluators as evidence of RV."
+        },
+        "sources": [
+          "Targ, R. & Puthoff, H. (1977), Mind-Reach",
+          "Mumford, M. D., Rose, A. M. & Goslin, D. A. (1995), AIR Report"
+        ],
+        "featured": true
+      },
+      {
+        "id": "remote-viewing-1974-targ-puthoff-nature",
+        "name": "SRI Nature paper trials (Hella Hammid and Pat Price)",
+        "date": {
+          "value": "1974-10-18",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Stanford Research Institute, Menlo Park, California",
+          "country": "United States",
+          "region": "California"
+        },
+        "witnesses": {
+          "count": 4,
+          "types": [
+            "SRI researchers (Targ, Puthoff)",
+            "Subjects (Hella Hammid, Pat Price)"
+          ],
+          "credibility_factors": [
+            "Peer-reviewed publication"
+          ]
+        },
+        "description": "Series of nine outbounder-style trials reported by Targ and Puthoff in Nature 252:602–607 (1974) using Hella Hammid and Pat Price as subjects, scored by independent judges who matched transcripts to target sites in the San Francisco Bay Area.",
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Subsequent re-analysis (Marks & Kammann 1980; Marks 1986) identified cueing in the transcripts and judging procedure",
+            "Failure to replicate under tightened protocol"
+          ],
+          "notes": "The first peer-reviewed publication of SRI RV results; subsequently discredited by independent re-analysis."
+        },
+        "sources": [
+          "Targ, R. & Puthoff, H. (1974), Nature 252:602–607",
+          "Marks, D. & Kammann, R. (1980), The Psychology of the Psychic"
+        ],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
   "evidence": {
@@ -97,30 +367,280 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "remote-viewing-evidence-air-1995",
+        "type": "report",
+        "name": "AIR evaluation of remote viewing (1995)",
+        "date": "1995-09-29",
+        "description": "American Institutes for Research evaluation commissioned by the CIA, including independent assessments by statistician Jessica Utts and psychologist Ray Hyman.",
+        "status": "verified",
+        "analysis": "Utts judged the laboratory results to indicate a statistically anomalous effect; Hyman judged the evidence not to support a paranormal conclusion. The combined report concluded the programme had not produced useful intelligence and recommended termination.",
+        "source": "Mumford, M. D., Rose, A. M. & Goslin, D. A. (1995)"
+      },
+      {
+        "id": "remote-viewing-evidence-stargate-files",
+        "type": "archive",
+        "name": "CIA Stargate declassified files",
+        "description": "Several thousand pages of declassified CIA, DIA, and Army Intelligence documents covering Gondola Wish through Stargate Project, available via the CIA CREST collection.",
+        "status": "verified",
+        "analysis": "Primary source corpus for any historical study of the U.S. RV programmes; consulted by both proponents and skeptics.",
+        "source": "CIA CREST archive",
+        "url": "https://www.cia.gov/readingroom/collection/stargate"
+      },
+      {
+        "id": "remote-viewing-evidence-targ-puthoff-1974",
+        "type": "paper",
+        "name": "Information transmission under conditions of sensory shielding",
+        "date": "1974-10-18",
+        "description": "Targ and Puthoff's 1974 Nature paper reporting RV trials at SRI.",
+        "status": "disputed",
+        "analysis": "Subject of subsequent re-analyses (Marks & Kammann 1980; Marks 1986) identifying methodological flaws including cueing in transcripts.",
+        "source": "Targ & Puthoff (1974), Nature 252:602–607"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Anomalous cognition / psi hypothesis",
+        "description": "Remote viewing reflects a real (if weak and statistically diffuse) human capacity for non-sensory information acquisition, potentially physical in nature but currently unaccounted for by mainstream physics.",
+        "proponents": [
+          "Russell Targ",
+          "Harold Puthoff",
+          "Edwin May",
+          "Jessica Utts (statistical reading)"
+        ],
+        "evidence_cited": [
+          "Targ & Puthoff (1974) Nature paper",
+          "Aggregate effect sizes across SRI/SAIC trials reported by May et al.",
+          "Selected operational hits cited in Stargate files"
+        ]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Methodological artefact / sensory cueing",
+        "description": "Apparent successes in SRI trials are attributable to cueing in transcripts (e.g. references to earlier sites), inadequate target-pool design, and post hoc judging rather than to a paranormal effect.",
+        "proponents": [
+          "David Marks",
+          "Richard Kammann",
+          "Ray Hyman",
+          "James Randi"
+        ],
+        "evidence_cited": [
+          "Marks & Kammann (1980)",
+          "Marks (1986) Nature critique",
+          "Hyman's section of the AIR Report (1995)"
+        ]
+      },
+      {
+        "name": "No actionable intelligence value",
+        "description": "Whatever the academic statistical questions, the operational programmes produced no intelligence of demonstrated value, and were terminated for that reason.",
+        "proponents": [
+          "American Institutes for Research",
+          "CIA leadership in 1995"
+        ],
+        "evidence_cited": [
+          "AIR Report conclusions (1995)",
+          "CIA decision to terminate Stargate Project in November 1995"
+        ]
+      },
+      {
+        "name": "Pseudoscience classification",
+        "description": "Remote viewing fails standard demarcation criteria for science: there is no specified mechanism, no robust replication, and no progression of theory.",
+        "proponents": [
+          "Mainstream scientific consensus"
+        ],
+        "evidence_cited": [
+          "Failure to replicate in independent laboratories",
+          "No accepted physical mechanism"
+        ]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "stories": [
+        "Pat Price's alleged 'Soviet site' descriptions",
+        "Joseph McMoneagle's Stargate operational sessions"
+      ],
+      "beliefs": "Within the post-Stargate civilian RV community, RV is treated as a trainable skill; within mainstream science it is regarded as not evidenced."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Russell Targ & Harold Puthoff, Mind-Reach (1977)",
+        "Jim Schnabel, Remote Viewers: The Secret History of America's Psychic Spies (1997)",
+        "Joseph McMoneagle, Mind Trek (1993) and The Stargate Chronicles (2002)",
+        "Annie Jacobsen, Phenomena: The Secret History of the U.S. Government's Investigations into Extrasensory Perception and Psychokinesis (2017)"
+      ],
+      "film_tv": [
+        "The Men Who Stare at Goats (2009 film, dir. Grant Heslov, based on Jon Ronson's 2004 book)",
+        "Third Eye Spies (2019 documentary, dir. Lance Mungia)",
+        "Stargate Project segments in numerous documentaries and history programmes"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Civilian RV training organisations including the International Remote Viewing Association (IRVA)"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      {
+        "name": "Russell Targ",
+        "affiliation": "SRI International (physicist)",
+        "contribution": "Co-founder of the SRI RV programme",
+        "period": "1972–1982"
+      },
+      {
+        "name": "Harold E. Puthoff",
+        "affiliation": "SRI International (physicist)",
+        "contribution": "Co-founder of the SRI RV programme",
+        "period": "1972–1985"
+      },
+      {
+        "name": "Ingo Swann",
+        "affiliation": "SRI International (artist, primary subject)",
+        "contribution": "Developed Coordinate Remote Viewing (CRV) protocol",
+        "period": "1972–1990s"
+      },
+      {
+        "name": "Edwin C. May",
+        "affiliation": "SRI International / SAIC",
+        "contribution": "Director of the U.S. government RV research programme 1985–1995",
+        "period": "1976–1995"
+      },
+      {
+        "name": "Joseph McMoneagle",
+        "affiliation": "U.S. Army INSCOM (Remote Viewer #001)",
+        "contribution": "Most-documented operational viewer in the Stargate programme",
+        "period": "1978–1995"
+      },
+      {
+        "name": "Jessica Utts",
+        "affiliation": "University of California, Davis (statistician)",
+        "contribution": "Statistical evaluation in the AIR report (1995)",
+        "period": "1995"
+      },
+      {
+        "name": "Ray Hyman",
+        "affiliation": "University of Oregon (psychologist)",
+        "contribution": "Critical evaluation in the AIR report (1995)",
+        "period": "1995"
+      },
+      {
+        "name": "David Marks",
+        "affiliation": "City University, London (psychologist)",
+        "contribution": "Critical re-analysis of SRI transcripts identifying cueing",
+        "period": "1978–1986"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Stanford Research Institute (now SRI International)",
+        "url": "https://www.sri.com",
+        "focus": "Original CIA/DIA-funded RV research site (1972–1990)"
+      },
+      {
+        "name": "CIA Stargate document collection (CREST)",
+        "url": "https://www.cia.gov/readingroom/collection/stargate",
+        "focus": "Public archive of declassified Stargate documents"
+      },
+      {
+        "name": "International Remote Viewing Association (IRVA)",
+        "url": "https://www.irva.org",
+        "focus": "Civilian organisation founded 1999 by former programme participants"
+      }
+    ],
+    "ongoing_studies": "Civilian RV continues to be taught and self-published; mainstream parapsychology occasionally includes RV-style protocols, but the scientific mainstream regards the phenomenon as not evidenced and the topic is dormant in cognitive neuroscience."
   },
-  "sources": []
+  "sources": [
+    {
+      "id": "wikipedia-remote-viewing",
+      "type": "website",
+      "title": "Remote viewing",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Remote_viewing",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-stargate",
+      "type": "website",
+      "title": "Stargate Project",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stargate_Project",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "targ-puthoff-1974",
+      "type": "paper",
+      "title": "Information transmission under conditions of sensory shielding",
+      "authors": [
+        "Russell Targ",
+        "Harold E. Puthoff"
+      ],
+      "publication": "Nature",
+      "date": "1974-10-18",
+      "doi": "10.1038/252602a0"
+    },
+    {
+      "id": "air-1995",
+      "type": "other",
+      "title": "An Evaluation of Remote Viewing: Research and Applications",
+      "authors": [
+        "Michael D. Mumford",
+        "Andrew M. Rose",
+        "David A. Goslin"
+      ],
+      "publication": "American Institutes for Research, prepared for the CIA",
+      "date": "1995-09-29"
+    },
+    {
+      "id": "marks-kammann-1980",
+      "type": "book",
+      "title": "The Psychology of the Psychic",
+      "authors": [
+        "David Marks",
+        "Richard Kammann"
+      ],
+      "publication": "Prometheus Books",
+      "date": "1980",
+      "isbn": "978-0879751227"
+    },
+    {
+      "id": "schnabel-1997",
+      "type": "book",
+      "title": "Remote Viewers: The Secret History of America's Psychic Spies",
+      "authors": [
+        "Jim Schnabel"
+      ],
+      "publication": "Dell",
+      "date": "1997",
+      "isbn": "978-0440223061"
+    },
+    {
+      "id": "jacobsen-2017",
+      "type": "book",
+      "title": "Phenomena: The Secret History of the U.S. Government's Investigations into Extrasensory Perception and Psychokinesis",
+      "authors": [
+        "Annie Jacobsen"
+      ],
+      "publication": "Little, Brown",
+      "date": "2017",
+      "isbn": "978-0316349369"
+    },
+    {
+      "id": "cia-stargate",
+      "type": "archive",
+      "title": "Stargate Project declassified files",
+      "publication": "CIA CREST collection",
+      "url": "https://www.cia.gov/readingroom/collection/stargate",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
